@@ -91,7 +91,7 @@ nav li a:hover {
 
 .anime-img img {
   height: 27vh;
-  width: 32.5vw;
+  width: 460px;
 }
 
 .anime-textarea {
@@ -120,7 +120,7 @@ nav li a:hover {
 .spot img {
   object-fit: cover;
   height: 30vh;
-  width: 32.5vw;
+  width: 460px;
 }
 
 .spot h2 {
