@@ -82,7 +82,8 @@ footer {
   text-align: center;
   margin-top: 50px;
   height: 60px;
-  background-color: #eaf2fd;
+  color: #ffffff;
+  background-color: rgb(44, 62, 80);
   display: flex;
   justify-content: center;
   align-items: center;
