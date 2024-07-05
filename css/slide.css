@@ -72,6 +72,7 @@
   display: block;
   border: none;
   border-radius: 50%;
+  background-color: #666;
 }
 
 .slick-dots .slick-active button {

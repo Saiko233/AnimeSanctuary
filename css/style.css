@@ -5,8 +5,12 @@ body {
   letter-spacing: 0.1em;
   font-weight: 400;
   list-style-type: none;
-  background-color: #ecfdb7;
+  background-color: #f0f0f0;
   color: #2c3e50;
+}
+/* 共通 */
+.reverse {
+  flex-direction: row-reverse;
 }
 
 .leaf {
@@ -15,10 +19,12 @@ body {
 
 h1 {
   font-size: 48px;
+  color: #8a2be2;
 }
 
 h2 {
   font-size: 30px;
+  color: #8a2be2;
 }
 
 h3 {
@@ -34,7 +40,7 @@ a {
   text-decoration: none;
   color: #ffffff;
 }
-
+/* /header */
 header {
   height: 90px;
   background-color: rgba(44, 62, 80, 0.9);
@@ -52,12 +58,9 @@ header {
   margin: 0 auto;
 }
 
-.logo {
-  width: 278px;
-}
-
 .logo img {
   height: 90px;
+  width: 100px;
 }
 
 nav ul {
@@ -77,40 +80,19 @@ nav li a:hover {
   padding-bottom: 10px;
   transition: 0.25s;
 }
-/* /header */
-
+/* anime */
 .anime-title {
   text-align: center;
-  padding: 30px 0;
+  margin: 80px 0 20px 0;
 }
 
-.anime-content {
-  display: flex;
-  justify-content: space-between;
-}
-
-.anime-img img {
-  height: 27vh;
-  width: 460px;
-}
-
-.anime-textarea {
-  width: 50%;
-  text-align: center;
-}
-
-.anime-textarea p {
-  width: 88%;
-  margin: 0 auto;
-  margin-top: 25px;
-}
-
+/* spot */
 .spot {
   text-align: center;
 }
 
 .spot-imgs {
-  margin-top: 50px;
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
   height: 30vh;
@@ -123,20 +105,44 @@ nav li a:hover {
   width: 460px;
 }
 
-.spot h2 {
-  margin-top: 50px;
-}
-
 .spot p {
-  margin-top: 10px;
+  padding: 15px;
   width: 65%;
   margin: 0 auto;
 }
 
-.reverse {
-  flex-direction: row-reverse;
-}
-
 .event {
   margin-top: 50px;
+}
+/* info */
+.anime-info {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.anime-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.anime-img img {
+  height: 50vh;
+  width: 474px;
+  object-fit: cover;
+}
+
+.anime-textarea {
+  width: 50%;
+}
+
+.anime-textarea p {
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  line-height: 50px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.4);
+  display: flex;
+  align-items: center;
 }
