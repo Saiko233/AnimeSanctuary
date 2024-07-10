@@ -21,3 +21,13 @@ $(function () {
     return false;
   });
 });
+
+$(document).ready(function () {
+  $(window).scroll(function () {
+    if ($(this).scrollTop() >= 600) {
+      $("#sidebar").fadeIn(700);
+    } else {
+      $("#sidebar").fadeOut(500);
+    }
+  });
+});
