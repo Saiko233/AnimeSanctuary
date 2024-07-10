@@ -1,0 +1,34 @@
+/* anime */
+.anime-title {
+    text-align: center;
+    margin: 80px 0 20px 0;
+  }
+  
+  /* spot */
+  .spot {
+    text-align: center;
+  }
+  
+  .spot-imgs {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 30vh;
+    width: 100%;
+  }
+  
+  .spot img {
+    object-fit: cover;
+    height: 30vh;
+    width: 460px;
+  }
+  
+  .spot p {
+    padding: 15px;
+    width: 65%;
+    margin: 0 auto;
+  }
+  
+  .event {
+    margin-top: 50px;
+  }
